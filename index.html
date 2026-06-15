@@ -1,0 +1,98 @@
+function App() {
+  return (
+    <>
+      <header style={{
+        background: "linear-gradient(90deg,#ff3c00,#ff8c00)",
+        padding: "20px",
+        textAlign: "center",
+        boxShadow: "0 0 20px #ff4500",
+      }}>
+        <h1 style={{ fontSize: "3.5rem", margin: 0 }}>🔥 BurningSMPofficial 🔥</h1>
+        <nav style={{ marginTop: "10px" }}>
+          <a href="#features" style={{ color: "white", textDecoration: "none", margin: "0 15px", fontWeight: "bold" }}>Features</a>
+          <a href="#rules" style={{ color: "white", textDecoration: "none", margin: "0 15px", fontWeight: "bold" }}>Rules</a>
+          <a href="#staff" style={{ color: "white", textDecoration: "none", margin: "0 15px", fontWeight: "bold" }}>Staff</a>
+        </nav>
+      </header>
+
+      <section style={{
+        textAlign: "center",
+        padding: "120px 20px",
+        background: "url('/hero-bg.png') center/cover",
+      }}>
+        <h2 style={{ fontSize: "3rem" }}>Forge Your Legacy</h2>
+        <p style={{ fontSize: "1.2rem" }}>Build kingdoms, make allies, start wars, and become a legend.</p>
+      </section>
+
+      <section style={{ padding: "60px 20px", textAlign: "center", background: "#111" }} id="join">
+        <h2>Join the Server</h2>
+        <p style={{ color: "#aaa", marginBottom: "30px" }}>Connect using the details below in Minecraft Bedrock Edition</p>
+        <div style={{ display: "inline-flex", gap: "20px", flexWrap: "wrap", justifyContent: "center" }}>
+          <div style={{ background: "#1a1a1a", padding: "25px 40px", borderRadius: "12px", border: "1px solid #ff4500" }}>
+            <p style={{ color: "#ff8c00", fontWeight: "bold", marginBottom: "8px" }}>SERVER IP</p>
+            <p style={{ fontSize: "1.4rem", fontFamily: "monospace", letterSpacing: "1px" }}>144.31.46.6</p>
+          </div>
+          <div style={{ background: "#1a1a1a", padding: "25px 40px", borderRadius: "12px", border: "1px solid #ff4500" }}>
+            <p style={{ color: "#ff8c00", fontWeight: "bold", marginBottom: "8px" }}>PORT</p>
+            <p style={{ fontSize: "1.4rem", fontFamily: "monospace", letterSpacing: "1px" }}>10895</p>
+          </div>
+          <a href="https://discord.gg/u7EZj2gKws" target="_blank" rel="noreferrer" style={{ background: "#1a1a1a", padding: "25px 40px", borderRadius: "12px", border: "1px solid #5865F2", textDecoration: "none", display: "block" }}>
+            <p style={{ color: "#5865F2", fontWeight: "bold", marginBottom: "8px" }}>DISCORD</p>
+            <p style={{ fontSize: "1.4rem", fontFamily: "monospace", letterSpacing: "1px", color: "white" }}>Join our Discord</p>
+          </a>
+        </div>
+      </section>
+
+      <section style={{ padding: "60px 20px", textAlign: "center" }} id="features">
+        <h2>Server Features</h2>
+        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "20px" }}>
+          <div style={{ background: "#1a1a1a", width: "280px", padding: "25px", borderRadius: "12px", border: "1px solid #333" }}>
+            <h3>⚔️ PvP Battles</h3>
+            <p>Fight players and dominate the realm.</p>
+          </div>
+          <div style={{ background: "#1a1a1a", width: "280px", padding: "25px", borderRadius: "12px", border: "1px solid #333" }}>
+            <h3>🏰 Nations</h3>
+            <p>Create powerful empires and alliances.</p>
+          </div>
+          <div style={{ background: "#1a1a1a", width: "280px", padding: "25px", borderRadius: "12px", border: "1px solid #333" }}>
+            <h3>💎 Economy</h3>
+            <p>Trade, sell, and grow your wealth.</p>
+          </div>
+        </div>
+      </section>
+
+      <section style={{ padding: "60px 20px", textAlign: "center" }} id="rules">
+        <h2>Server Rules</h2>
+        <div style={{ maxWidth: "700px", margin: "auto", textAlign: "left" }}>
+          <p>1. No hacking or cheating.</p>
+          <p>2. Respect staff decisions.</p>
+          <p>3. No lag machines.</p>
+          <p>4. Keep chat appropriate.</p>
+          <p>5. No Duping.</p>
+          <p>6. Have fun and survive.</p>
+        </div>
+      </section>
+
+      <section style={{ padding: "60px 20px", textAlign: "center" }} id="staff">
+        <h2>Staff Team</h2>
+        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "20px" }}>
+          <div style={{ background: "#1a1a1a", width: "280px", padding: "25px", borderRadius: "12px", border: "1px solid #333" }}>
+            <h3>Owner</h3>
+            <p>XxWarriorxX</p>
+          </div>
+          <div style={{ background: "#1a1a1a", width: "280px", padding: "25px", borderRadius: "12px", border: "1px solid #333" }}>
+            <h3>Admin</h3>
+            <p>Xx Onboy xX</p>
+          </div>
+        </div>
+      </section>
+
+      <footer style={{ background: "#111", textAlign: "center", padding: "20px", color: "#888" }}>
+        <p>© 2026 Burning SMP | Minecraft Realm</p>
+      </footer>
+    </>
+  );
+}
+
+export default App;
+      
